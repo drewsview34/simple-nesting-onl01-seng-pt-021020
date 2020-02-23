@@ -65,7 +65,7 @@ def adding_matz
   programmer_hash[:yukihiro_matsumoto][:languages] = ["LISP", "C"]
 
 
-  puts programmer_hash = 
+  programmer_hash = 
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -80,7 +80,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-  programmer_hash
+  return programmer_hash
     
 end
 
